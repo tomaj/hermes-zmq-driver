@@ -1,0 +1,31 @@
+{
+    "name": "tomaj/hermes-zmq-driver",
+    "description": "ZeroMq Hermes Driver",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["event", "background", "workers"],
+    "homepage": "https://github.com/tomaj/hermes-zmq-driver",
+    "authors": [
+        {
+            "name": "Tomas Majer",
+            "email": "tomasmajer@gmail.com",
+            "homepage": "http://www.tomaj.sk/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tomaj/hermes-zmq-driver/issues",
+        "source": "https://github.com/tomaj/hermes-zmq-driver"
+    },
+    "require": {
+        "php": ">= 7.1.0",
+        "ext-zmq": "*",
+        "tomaj/hermes": "^2.1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+             "Tomaj\\Hermes\\": "src"
+        }
+    }
+}
